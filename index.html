@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primera sesion repaso </title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img   id="" src="">
+            <audio id="work" src="assets\work.mp3"></audio>
+            <video id="work1" autoplay loop="true" src="assets\work1.mp4"></video>
+            <video id="work4" autoplay loop="true" src="assets\work4.mp4"></video>
+            <video id="ezgif.com-gif-to-mp4" autoplay loop="true" src="assets\ezgif.com-gif-to-mp4.mp4"></video>
+            <img id="nephew (1)" src="assets\nephew (1).jpg">
+            <img id="anarchosyndicalism(1)" src="assets\anarchosyndicalism(1).jpg">
+        </a-assets>
+        <a-sound src="#work" autoplay="true" loop="true" position="0 0 -4"></a-sound>
+        <a-sound src="#work" autoplay="true" loop="true" position="0 0 4"></a-sound>
+        <a-sound src="#work" autoplay="true" loop="true" position="0 1 4"></a-sound>
+ <a-video src="#ezgif.com-gif-to-mp4"  position="-14 3 4" width="8" height="16"rotation="0 -40 0" blending="multiply"></a-video>
+ <a-video src="#ezgif.com-gif-to-mp4"  position="32 8 28" width="4" height="8"rotation="0 -40 0" transparency="false" alphatest="0.5" blending="multiply"></a-video>
+ <a-video src="#work1" width="4" height="2" position="0 0 -4" scale="3 3 6"></a-video>
+ <a-video src="#work1" width="4" height="2" position="220 -0 2" scale="37 53 61"></a-video>
+ <a-videosphere src="#work4"></a-videosphere>
+ <a-text position="-0.286 3.903 -3.776" scale="30.170 40.600 10.020" color="red" value="TE HAS TRANSFORMADO EN CULPABLE, PUES LA INOCENCIA ES UNA DISCIPLINA QUE DESPOSEE DE SABER COMUN (LA CATASTROFICA IDEA DE PUREZA). ME ACUSASTE DE ANATEMA AUNQUE CREES COMO YO EN LA ECONOMIA DEL RESIDUO. EL PRINCIPIO DE INSUFICIENCIA A LA BASE DE SER. AQUELLO QUE A SU VEZ REBOSA/REBASA LA VIDA INDIVIDUAL. EN UNA GUERRA ASIMETRICA HAY QUE CONOCER MUY BIEN EL TERRITORIO. CONOCER LA INSUFICIENCIA, EL LIMITE Y EL RESIDUO."
+ animation="property:position;
+ to:0 1 10;
+ dur:7000;
+ loop:true;
+ dir:alternate;"></a-text>
+ <a-image src="#anarchosyndicalism(1)" width="60" height="120" position="357 9 257"
+ animation__rotation="property:rotation;
+    to :0 360 0;
+    dur:5000;
+    loop:true;
+    dir:alternate;"></a-image>
+    <a-image src="#anarchosyndicalism(1)" width="60" height="120" position="10 9 301"
+    animation__rotation="property:rotation;
+       to :0 360 0;
+       dur:5000;
+       loop:true;
+       dir:alternate;"></a-image>  
+<a-entity gltf-model="#elian object" position="0 -1 3"
+animation__rotation="property:rotation;
+to :0 360;
+dur:5000;
+loop:true;
+dir:alternate"></a-entity>
+
+</a-scene>
+</body>
+</html>
